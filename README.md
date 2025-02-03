@@ -51,4 +51,4 @@ lsb_release -a
 
 ```
 - Кнопки D22-D25 работают
-<div url="https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester">github</div>
+<ins url="https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester">github</ins>
