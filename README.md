@@ -47,7 +47,7 @@ rostopic echo /bat
 ```
 - IMU датчик работает корректно
 ```
-rstopic echo /imu
+rostopic echo /imu
 ```
 - Смотрим на показатель *W*
 - Для проверки кнопок D22-D25
