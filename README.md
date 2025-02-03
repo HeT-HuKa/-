@@ -26,29 +26,32 @@ sudo nano hostname
 ```
 - Изменяем turelbroXX на номер своего робота
 ### Внесение данных в "Акт о приеме"
-- Название дистрибутива Linux и Кодовое имя сборки Linux
+- Название дистрибутива Linux и кодовое имя сборки Linux
 ```
 lsb_release -a
 ```
 - Версия библиотеки rospy
 ```
-
+rosservice rospy
 ```
 - Размер оперативной памяти (Кбайт)
 ```
-
+free -K
 ```
 - Допустимый диапазон частот подключения робота к сети 5 ГГц
 ```
-
+iwconfig
 ```
-- Допустимая разница напряжения в показаниях между топиком
+- Что бы узнать напряжение из топика
 ```
-
+rostopic echo /bat
 ```
 - IMU датчик работает корректно
 ```
-
+rstopic echo /imu
 ```
-- Кнопки D22-D25 работают
-<ins url="https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester">github</ins>
+- Смотрим на показатель *W*
+- Для проверки кнопок D22-D25
+[переходим по ссылке](https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester)
+- Переходим в скетч Turtlebro-tester.ino
+- Копируем его и вставляем в Arduino
