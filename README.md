@@ -160,16 +160,13 @@
     ```
     - Сервопривод работает корректно
     
-    - Концевой выключатель работает корректно
-    Переходим по [ссылке](https://github.com/voltbro/ws-sro/blob/main/TB-limit_switch-tester/)
+    - Концевой выключатель работает корректно [(ссылка)](https://github.com/voltbro/ws-sro/blob/main/TB-limit_switch-tester/)
     - Нажимная кнопка работает корректно
     ```
     
     ```
-    - Проверка светодиодной подсветки и кнопок D22-D25 
-    Переходим по [ссылке](https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester)
-    - Связь контроллера расширения с ROS работает
-    Переходим по [ссылке](https://github.com/voltbro/ws-sro/tree/main/TB-ros-tester)
+    - Проверка светодиодной подсветки и кнопок D22-D25 [(ссылка)](https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester)
+    - Связь контроллера расширения с ROS работает [(ссылка)](https://github.com/voltbro/ws-sro/tree/main/TB-ros-tester)
     ```
     - Проверяем его
     ```
