@@ -201,3 +201,32 @@
     psutil
     ```
 ### Откат версии сервисного пакета
+- Переходим в директорию src и клонируем пакет
+    ```
+    cd ~/catkin_ws/src
+    git clone https://github.com/voltbro/profi_service_pkg_2.git
+    ```
+- Выходим на одну директорию назад
+    ```
+    cd ~/catkin_ws
+    или
+    cd ../
+    ```
+- Скомпилируйте пакет
+    ```
+    catkin_make
+    ```
+- Запустите файл
+    ```
+    roslaunch profi_service_pkg_2 start_configure.launch
+    ```
+- Для проверки нужно посмотреть топики
+    ```
+    /bat
+    /scan
+    /imu
+    ```
+- С момощью команды (?)
+    ```
+    rospy.loginfo echo
+    ```
