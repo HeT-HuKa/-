@@ -174,30 +174,30 @@
 ## Модуль Б
 ### Обновление сервисного пакета
 - Переходим в директорию src и клонируем пакет
-```
-cd ~/catkin_ws/src/
-git clone https://github.com/voltbro/profi_service_pkg_1.git
-```
+    ```
+    cd ~/catkin_ws/src/
+    git clone https://github.com/voltbro/profi_service_pkg_1.git
+    ```
 - Выходим на одну директорию назад
-```
-cd ~/catkin_ws/
-или
-cd ../
-```
+    ```
+    cd ~/catkin_ws/
+    или
+    cd ../
+    ```
 - Затем компилируем его
-```
-catkin_make --pkg profi_service_pkg_1
-```
+    ```
+    catkin_make --pkg profi_service_pkg_1
+    ```
 - После этого его нужно запустить
-```
-roslaunch profi_service_pkg_1 start_configure.launch
-```
+    ```
+    roslaunch profi_service_pkg_1 start_configure.launch
+    ```
 - Если все сделанно правильно можно проверить его с помощью команд:
-```
-time
-tqdm
-os
-platform
-psutil
-```
+    ```
+    time
+    tqdm
+    os
+    platform
+    psutil
+    ```
 ### Откат версии сервисного пакета
