@@ -167,7 +167,6 @@
     ```
     - Проверка светодиодной подсветки и кнопок D22-D25 [(ссылка)](https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester)
     - Связь контроллера расширения с ROS работает [(ссылка)](https://github.com/voltbro/ws-sro/tree/main/TB-ros-tester)
-    ```
     - Проверяем его
     ```
     rostopic echo /arduino_connect_tester
