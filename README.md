@@ -158,8 +158,7 @@
     ```
     echo "Однажды, в студеную зимнюю пору Я из лесу вышел. Был сильный мороз." | festival --tts --language russian
     ```
-    - Сервопривод работает корректно
-    
+    - Сервопривод работает корректно [(ссылка)](https://github.com/HeT-HuKa/-/blob/main/Servo.ino)
     - Концевой выключатель работает корректно [(ссылка)](https://github.com/voltbro/ws-sro/blob/main/TB-limit_switch-tester/)
     - Нажимная кнопка работает корректно [(ссылка)](https://github.com/HeT-HuKa/-/blob/main/Button.ino)
     - Проверка светодиодной подсветки и кнопок D22-D25 [(ссылка)](https://github.com/voltbro/ws-sro/tree/main/Turtlebro-tester)
