@@ -166,4 +166,3 @@
         ```
         rostopic echo /arduino_connect_tester
         ```
-    ```
